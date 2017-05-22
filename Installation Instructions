@@ -58,6 +58,13 @@ replace: text = "xs\spawn\xslogo.paa"; with: text = "xs\spawn\xslogo.jpg";
 - xsbackground.jpg
 - xslogo.jpg
 
+Step 6: Open your initPlayerLocal.sqf and paste the following into it (There is an example initPlayerLocal.sqf you can use to copy from)
+
+eXpochClientPlayerLastBaseSpawn = diag_tickTime;		// Do not change this
+eXpochBaseRespawnTimeLimit = 900;					// How long before the players can respawn at their base since the last death or joining server  - default: 900
+eXpochBaseSpawnLevelRequired = 4; 					// Required Level of Base for Allowing Spawn - default: 4
+eXpochBaseSpawnAllowedType = "ExileTerritoryBuildRights"; // If only owners can spawn change this to "ExileOwnerUID" - default: "ExileTerritoryBuildRights"
+
 == Server Side ==
 
 Step 6: Open @exileserver\addons\exile_server_config\config.cpp
