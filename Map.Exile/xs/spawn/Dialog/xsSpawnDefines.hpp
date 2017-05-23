@@ -78,7 +78,7 @@
 
 #define SL_TEXTURES       0x10
 
-// progress bar 
+// progress bar
 #define ST_VERTICAL       0x01
 #define ST_HORIZONTAL     0
 
@@ -94,10 +94,6 @@
 #define MB_BUTTON_OK      1
 #define MB_BUTTON_CANCEL  2
 #define MB_BUTTON_USER    4
-
-//map
-#define CT_MAP_MAIN 101
-#define ST_PICTURE 48
 
 //map
 class xsSpawnRscMapControl {
@@ -493,7 +489,7 @@ class xsSpawnRscStructuredText
 	type = 13;
 	idc = -1;
 	style = 0;
-	colorText[] = 
+	colorText[] =
 	{
 		1,
 		1,
@@ -524,14 +520,14 @@ class xsSpawnRscPicture
 	type = 0;
 	idc = -1;
 	style = 48;
-	colorBackground[] = 
+	colorBackground[] =
 	{
 		0,
 		0,
 		0,
 		0
 	};
-	colorText[] = 
+	colorText[] =
 	{
 		1,
 		1,
@@ -548,21 +544,21 @@ class xsSpawnRscPicture
 	y = 0;
 	w = 0.2;
 	h = 0.15;
-	tooltipColorText[] = 
+	tooltipColorText[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	tooltipColorBox[] = 
+	tooltipColorBox[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	tooltipColorShade[] = 
+	tooltipColorShade[] =
 	{
 		0,
 		0,
@@ -581,63 +577,63 @@ class xsSpawnRscListBox
 	access = 0;
 	type = 5;
 	rowHeight = 0;
-	colorText[] = 
+	colorText[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorDisabled[] = 
+	colorDisabled[] =
 	{
 		1,
 		1,
 		1,
 		0.25
 	};
-	coloxsSpawnRscrollbar[] = 
+	coloxsSpawnRscrollbar[] =
 	{
 		1,
 		0,
 		0,
 		0
 	};
-	colorSelect[] = 
+	colorSelect[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	colorSelect2[] = 
+	colorSelect2[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	colorSelectBackground[] = 
+	colorSelectBackground[] =
 	{
 		0.95,
 		0.95,
 		0.95,
 		1
 	};
-	colorSelectBackground2[] = 
+	colorSelectBackground2[] =
 	{
 		1,
 		1,
 		1,
 		0.5
 	};
-	colorBackground[] = 
+	colorBackground[] =
 	{
 		0,
 		0,
 		0,
 		0.3
 	};
-	soundSelect[] = 
+	soundSelect[] =
 	{
 		"\A3\ui_f\data\sound\RscListbox\soundSelect",
 		0.09,
@@ -648,84 +644,84 @@ class xsSpawnRscListBox
 	autoScrollRewind = 0;
 	arrowEmpty = "#(argb,8,8,3)color(1,1,1,1)";
 	arrowFull = "#(argb,8,8,3)color(1,1,1,1)";
-	colorPicture[] = 
+	colorPicture[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorPictureSelected[] = 
+	colorPictureSelected[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorPictureDisabled[] = 
+	colorPictureDisabled[] =
 	{
 		1,
 		1,
 		1,
 		0.25
 	};
-	colorPictureRight[] = 
+	colorPictureRight[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorPictureRightSelected[] = 
+	colorPictureRightSelected[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorPictureRightDisabled[] = 
+	colorPictureRightDisabled[] =
 	{
 		1,
 		1,
 		1,
 		0.25
 	};
-	colorTextRight[] = 
+	colorTextRight[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorSelectRight[] = 
+	colorSelectRight[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	colorSelect2Right[] = 
+	colorSelect2Right[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	tooltipColorText[] = 
+	tooltipColorText[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	tooltipColorBox[] = 
+	tooltipColorBox[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	tooltipColorShade[] = 
+	tooltipColorShade[] =
 	{
 		0,
 		0,
@@ -734,7 +730,7 @@ class xsSpawnRscListBox
 	};
 	class ListScrollBar
 	{
-		color[] = 
+		color[] =
 		{
 			1,
 			1,
@@ -751,7 +747,7 @@ class xsSpawnRscListBox
 	font = "RobotoCondensed";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	shadow = 0;
-	colorShadow[] = 
+	colorShadow[] =
 	{
 		0,
 		0,
@@ -768,81 +764,81 @@ class xsSpawnRscButton
 	access = 0;
 	type = 1;
 	text = "";
-	colorText[] = 
+	colorText[] =
 	{
 		1,
 		1,
 		1,
 		1
 	};
-	colorDisabled[] = 
+	colorDisabled[] =
 	{
 		1,
 		1,
 		1,
 		0.25
 	};
-	colorBackground[] = 
+	colorBackground[] =
 	{
 		0,
 		0,
 		0,
 		0.5
 	};
-	colorBackgroundDisabled[] = 
+	colorBackgroundDisabled[] =
 	{
 		0,
 		0,
 		0,
 		0.5
 	};
-	colorBackgroundActive[] = 
+	colorBackgroundActive[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	colorFocused[] = 
+	colorFocused[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	colorShadow[] = 
+	colorShadow[] =
 	{
 		0,
 		0,
 		0,
 		0
 	};
-	colorBorder[] = 
+	colorBorder[] =
 	{
 		0,
 		0,
 		0,
 		1
 	};
-	soundEnter[] = 
+	soundEnter[] =
 	{
 		"\A3\ui_f\data\sound\RscButton\soundEnter",
 		0.09,
 		1
 	};
-	soundPush[] = 
+	soundPush[] =
 	{
 		"\A3\ui_f\data\sound\RscButton\soundPush",
 		0.09,
 		1
 	};
-	soundClick[] = 
+	soundClick[] =
 	{
 		"\A3\ui_f\data\sound\RscButton\soundClick",
 		0.09,
 		1
 	};
-	soundEscape[] = 
+	soundEscape[] =
 	{
 		"\A3\ui_f\data\sound\RscButton\soundEscape",
 		0.09,
