@@ -50,6 +50,7 @@ if(eXpochClientPlayerLastBaseSpawn < (diag_tickTime - eXpochBaseRespawnTimeLimit
 				createMarker [_baseName,getPosATL _x];
 				_listItemIndex = _listBox lbAdd _baseName;
 				_listBox lbSetData [_listItemIndex, _baseName];
+				_listBox lbSetColor [_listItemIndex, [0.72,0.18,0.2,1]];
 			};
 		};
 	}forEach _allTerritoryFlags;
@@ -62,6 +63,7 @@ if (_numberOfSpawnPoints > 0) then
 	_randData = lbData [1500,_randNum];
 	_randomSpawnIndex = _listBox lbAdd "Random";
 	_listBox lbSetData [_randomSpawnIndex, _randData];
+	_listBox lbSetColor [_randomSpawnIndex, [0,0.78,0.06,1]];
 };
 
 _tipTextList = selectRandom
