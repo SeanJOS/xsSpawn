@@ -67,13 +67,13 @@ eXpochBaseSpawnAllowedType = "ExileTerritoryBuildRights"; // If only owners can 
 
 == Server Side ==
 
-Step 6: Open @exileserver\addons\exile_server_config\config.cpp
+Step 7: Open @exileserver\addons\exile_server_config\config.cpp
 Locate class BambiSettings and make sure your settings for halo match the below
 parachuteSpawning = 1;
 haloJump = 1;
 parachuteDropHeight = 1000; (this ones up to you)
 
-Step 7: If you use infistar you will need to add the following idd number to your allowed idd list
+Step 8: If you use infistar you will need to add the following idd number to your allowed idd list
 - Open a3_infiSTAR_Exile\EXILE_AHAT_CONFIG.hpp
 - Look for allowedIDDs[] =
 - Insert 86000,	// xsSpawn above the last number 46
