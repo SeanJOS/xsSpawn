@@ -9,7 +9,7 @@
  * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
  */
  
-private["_markerName","_display","_mapControl"];
+private["_markerName", "_display", "_mapControl"];
 disableSerialization;
 _markerName = _this;
 _display = uiNamespace getVariable ["xstremeGroundorHaloDialog",displayNull];

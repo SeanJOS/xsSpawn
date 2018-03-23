@@ -12,20 +12,18 @@
  private ["_playerChoice"];
 _playerChoice = _this select 0;
 
-if (_playerChoice isEqualTo 1) then {
-
+if (_playerChoice isEqualTo 1) then 
+{
 	player setVariable ["playerWantsHaloSpawn",1,true];
-
-} else {
-
+} 
+else 
+{
 	player setVariable ["playerWantsHaloSpawn",0,true];
-
 };
-if(ExileClientSelectedSpawnLocationMarkerName in eXpochClientPlayerBases)then
+if (ExileClientSelectedSpawnLocationMarkerName in eXpochClientPlayerBases) then
 {
 	eXpochClientPlayerLastBaseSpawn = diag_tickTime;
 };
-
 ExileClientSpawnLocationSelectionDone = true;
-//closeDialog 1;
+// closeDialog 1;
 true
